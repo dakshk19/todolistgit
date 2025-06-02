@@ -1,13 +1,4 @@
-import mysql.connector
-
-conn = mysql.connector.connect(
-    host = "localhost",
-    user = "daksh2",
-    password = "Daksh@123",
-    port = "3306"
-)
-
-print("connected")
+tasks = []
 
 
 def addtasks():
