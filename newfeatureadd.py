@@ -4,16 +4,22 @@ conn = mysql.connector.connect(
     host = "localhost",
     user = "daksh2",
     password = "Daksh@123",
-    port = "3306"
+    port = "3306",
+    database = "box"
 )
 
-print("connected")
-
+mycursor = conn.cursor()
+#mycursor.execute("CREATE TABLE list(tasknumber VARCHAR(20), taskname VARCHAR(100))")
 
 def addtasks():
-    task = input("enter your task")
-    tasks.append(task)
-    print("task has been added")
+    taskno = input("enter task number")
+    task_name = input("enter task name")
+    insert = "INSERT INTO list(tasknumber,taskname) values(%s,%s)"
+    values = (taskno,task_name)
+    mycursor.execute(insert,values)
+    conn.commit()
+    print("task added")
+
 
 def showtasks():
     idx=1
