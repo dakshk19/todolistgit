@@ -22,10 +22,11 @@ def addtasks():
 
 
 def showtasks():
-    idx=1
-    for task in tasks:
-        print(f"{idx}:{task}")
-        idx+=1
+    mycursor.execute("SELECT * FROM list")
+    result = mycursor.fetchall()
+    for x in result:
+        print(x)
+
 
 def deltasks():
 
