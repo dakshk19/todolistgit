@@ -1,2 +1,0 @@
-doing python practice
-making a todo list project
