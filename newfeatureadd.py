@@ -29,16 +29,12 @@ def showtasks():
 
 
 def deltasks():
-
-    if len(tasks) > 0:
-        i = int(input("enter the task index that you want to delete"))
-        tasks.pop(i-1)
-        print("task has been removed ")
-
-    else:
-        print("list is empty so no item to delete")
-
-
+    taskno = input("enter task number you want to delete")
+    delete = "DELETE FROM list WHERE taskno = %s"
+    mycursor.execute(delete,taskno)
+    conn.commit()
+    print("task has been deleted")
+    
 
 while True:
 
