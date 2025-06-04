@@ -9,14 +9,12 @@ conn = mysql.connector.connect(
 )
 
 mycursor = conn.cursor()
-#mycursor.execute("CREATE TABLE list(tasknumber VARCHAR(20), taskname VARCHAR(100))")
+#mycursor.execute("CREATE TABLE list (taskindex INT PRIMARY KEY AUTO_INCREMENT, taskname VARCHAR(100))")
 
 def addtasks():
-    taskno = input("enter task number")
     task_name = input("enter task name")
-    insert = "INSERT INTO list(tasknumber,taskname) values(%s,%s)"
-    values = (taskno,task_name)
-    mycursor.execute(insert,values)
+    insert = "INSERT INTO list(taskname) values(%s)"
+    mycursor.execute(insert,(task_name,))
     conn.commit()
     print("task added")
 
@@ -29,9 +27,9 @@ def showtasks():
 
 
 def deltasks():
-    taskno = input("enter task number you want to delete")
-    delete = "DELETE FROM list WHERE taskno = %s"
-    mycursor.execute(delete,taskno)
+    taskno = int(input("enter task number you want to delete"))
+    delete = "DELETE FROM list WHERE taskindex = %s"
+    mycursor.execute(delete,(taskno,))
     conn.commit()
     print("task has been deleted")
     
