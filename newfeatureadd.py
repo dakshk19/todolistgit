@@ -33,6 +33,7 @@ def deltasks():
     conn.commit()
     print("task has been deleted")
     
+    
 
 while True:
 
