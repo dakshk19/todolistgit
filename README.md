@@ -1,7 +1,7 @@
 Hey there , welcome to my todolist application. i have tried to make a software that can bring some positive impact to your life.
 so lets dive into it.
 
-so the application is currently a basic code written in vs code. to access and use it you have to open the todolist in vs code and run it. the readme file currently is based on the amount of work that has been on the project till now. in future, it will be updated accordingly
+so the application is currently a basic code written in vs code. to access and use it you have to open the todolist in vs code and run it. the readme file currently is based on the amount of work that has been done on the project till now. in future, it will be updated accordingly
 
 when you open the application and run it you will get 3 options -
 1. add task
