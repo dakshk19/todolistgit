@@ -7,6 +7,8 @@
 Hey there , welcome to my todolist application. i have tried to make a software that can bring some positive impact to your life.
 so lets dive into it.
 
+So, currently the application is a basic code written in python integrated with my sql. you can add the tasks you want to 
+complete in the day, see the pending tasks list and remove if the task is done or it is not longer relevent
 ## Setup 
 1. clone the repo from github
   
@@ -45,13 +47,18 @@ When you run the application, you will have 3 options
   follow on screen instructions further.
 
 
-
-
-
-
 # Source code
 
 <div markdown="1">
 	<img src="https://github.com/dakshk19/todolistgit/blob/main/carbon.png?raw=true" width="800" height="1000"/>
+
+ ## CONTRIBUTIONS
+
+ There are many more features that are to be added in the application. i am open to any pull requests. for major changes, we need to discuss before making any change
+
+ ## Contact me
+
+ Email: dakshk9999@gmail.com
+ github: @dakshk19
 
 	
