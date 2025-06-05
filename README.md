@@ -1,6 +1,7 @@
-                                                  ![Image](./TODOLIST.png)
+                                                        ![Alt text](TODOLIST.png)            
 
 
+                                                  
 
 Hey there , welcome to my todolist application. i have tried to make a software that can bring some positive impact to your life.
 so lets dive into it.
