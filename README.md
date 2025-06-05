@@ -1,8 +1,6 @@
 <div align="center" markdown="1">
-	<img src="" width="80" height="80"/>
-	<h1>Frappe Framework</h1>
-  
-## TODOLIST                                       
+	<img src="" width="300" height="100"/>
+                                     
 
 Hey there , welcome to my todolist application. i have tried to make a software that can bring some positive impact to your life.
 so lets dive into it.
