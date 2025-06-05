@@ -1,4 +1,4 @@
-                                                  ![Image](https://github.com/dakshk19/todolistgit/blob/main/TODOLIST.png?raw=true)
+                                                  ![Image](./TODOLIST.png)
 
 
 
