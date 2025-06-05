@@ -1,5 +1,5 @@
 
-<div  align = "LEFT" markdown="1">
+<div  align = "LEFT" >
 	<img src="https://github.com/dakshk19/todolistgit/blob/main/LOGO.jpg?raw=true" width="300" height="300"/>
 </div>
 
@@ -54,7 +54,7 @@ When you run the application, you will have 3 options
 
 # Source code
 
-<div markdown="1">
+<div >
 	<img src="https://github.com/dakshk19/todolistgit/blob/main/carbon.png?raw=true" width="800" height="1000"/>
 
  ## CONTRIBUTIONS
