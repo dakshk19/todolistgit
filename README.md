@@ -7,12 +7,37 @@
 Hey there , welcome to my todolist application. i have tried to make a software that can bring some positive impact to your life.
 so lets dive into it.
 
-so the application is currently a basic code written in vs code. to access and use it you have to open the todolist in vs code and run it. the readme file currently is based on the amount of work that has been done on the project till now. in future, it will be updated accordingly
+## Setup 
+1. clone the repo from github
+  
+  ```git clone https://github.com/dakshk19/todolistgit ```
 
-when you open the application and run it you will get 3 options -
-1. add task
+2. open the directory
+
+   ``` cd todolistgit```
+
+3. set up virtual environment
+
+   ```
+   python -m venv xyz
+   source xyz/bin/activate
+   ```
+4. install dependency
+   
+   ``` pip install mysql-connector-python ```
+
+6. run the code
+   
+   ``` python newfeatureadd.py```
+## Features
+1. Add task
 2. show tasks
 3. remove task
+
+## Tech stack
+- Language: Python,Mysql
+- libraries: 'mysql.connector'
+
 
 you have to press the number corresponding to the tasks which you want to perform. lets suppose you want to add a task in the list so press 1 or you want to delete task so press 3.
 
