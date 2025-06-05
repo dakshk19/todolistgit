@@ -1,4 +1,7 @@
 
+<div  markdown="1">
+	<img src="https://github.com/dakshk19/todolistgit/blob/main/TODOLIST.png?raw=true" width="300" height="100"/>
+ 
                                      
 
 Hey there , welcome to my todolist application. i have tried to make a software that can bring some positive impact to your life.
@@ -24,7 +27,7 @@ thankyou for visiting
 
 # Source code
 
-<div align="center" markdown="1">
+<div markdown="1">
 	<img src="https://github.com/dakshk19/todolistgit/blob/main/carbon.png?raw=true" width="800" height="1000"/>
 
 	
