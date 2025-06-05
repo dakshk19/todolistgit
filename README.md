@@ -1,8 +1,8 @@
-                                                        ![Todo List Screenshot](TODOLIST.png)
-          
-
-
-                                                  
+<div align="center" markdown="1">
+	<img src="" width="80" height="80"/>
+	<h1>Frappe Framework</h1>
+  
+## TODOLIST                                       
 
 Hey there , welcome to my todolist application. i have tried to make a software that can bring some positive impact to your life.
 so lets dive into it.
@@ -23,3 +23,14 @@ In show task, you just have to press 2 and it will show all the tasks which you 
 remove task will be available soon. i am working on that
 
 thankyou for visiting
+
+<pre><code>x= input(&quot;choose any one option in the todo list\n press 1 to add tasks \n press 2 to show tasks \n press 3 to remove tasks \n&quot;)
+
+if x == &quot;1&quot;:
+    addtasks()
+
+elif x == &quot;2&quot;:
+    showtasks()
+
+elif x == &quot;3&quot;:
+    deltasks()</code></pre>
