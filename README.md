@@ -1,4 +1,4 @@
-<div align="center" markdown="1">
+<div markdown="1">
 	<img src="" width="300" height="100"/>
                                      
 
@@ -22,13 +22,9 @@ remove task will be available soon. i am working on that
 
 thankyou for visiting
 
-<pre><code>x= input(&quot;choose any one option in the todo list\n press 1 to add tasks \n press 2 to show tasks \n press 3 to remove tasks \n&quot;)
 
-if x == &quot;1&quot;:
-    addtasks()
+# Source code
 
-elif x == &quot;2&quot;:
-    showtasks()
-
-elif x == &quot;3&quot;:
-    deltasks()</code></pre>
+<div  markdown="1">
+	<img src=".github/framework-logo-new.svg" width="800" height="1000"/>
+	
