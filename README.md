@@ -1,14 +1,19 @@
 
-<div  markdown="1">
-	<img src="https://github.com/dakshk19/todolistgit/blob/main/TODOLIST.png?raw=true" width="300" height="100"/>
- 
-                                     
+<div  align = "LEFT" markdown="1">
+	<img src="https://github.com/dakshk19/todolistgit/blob/main/LOGO.jpg?raw=true" width="300" height="300"/>
+</div>
 
-Hey there , welcome to my todolist application. i have tried to make a software that can bring some positive impact to your life.
+# TODOLIST
+
+Hey there , welcome to my todolist application.
+
+
+i have tried to make a software that can bring some
+positive impact to your life.
 so lets dive into it.
 
 So, currently the application is a basic code written in python integrated with my sql. you can add the tasks you want to 
-complete in the day, see the pending tasks list and remove if the task is done or it is not longer relevent
+complete in the day, see the pending tasks list and remove if the task is done or If the task is no longer needed
 ## Setup 
 1. clone the repo from github
   
