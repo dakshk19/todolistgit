@@ -1,5 +1,4 @@
-<div markdown="1">
-	<img src="" width="300" height="100"/>
+
                                      
 
 Hey there , welcome to my todolist application. i have tried to make a software that can bring some positive impact to your life.
@@ -25,6 +24,8 @@ thankyou for visiting
 
 # Source code
 
-<div  markdown="1">
-	<img src=".github/framework-logo-new.svg" width="800" height="1000"/>
+<div align="center" markdown="1">
+	<img src="" width="80" height="80"/>
+	<h1>Frappe Framework</h1>
+
 	
