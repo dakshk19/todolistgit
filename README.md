@@ -5,15 +5,14 @@
 
 # TODOLIST
 
-Hey there , welcome to my todolist application.
+Hey there , Welcome to the Todolist
 
-
-i have tried to make a software that can bring some
+I have tried to make a software that can bring some
 positive impact to your life.
 so lets dive into it.
-
 So, currently the application is a basic code written in python integrated with my sql. you can add the tasks you want to 
-complete in the day, see the pending tasks list and remove if the task is done or If the task is no longer needed
+complete in the day, remove the task which is no longer required, mark task done or pending on basis of current status and see the overall todolist
+
 ## Setup 
 1. clone the repo from github
   
@@ -35,7 +34,7 @@ complete in the day, see the pending tasks list and remove if the task is done o
 
 6. run the code
    
-   ``` python newfeatureadd.py```
+   ``` python TodolistUPDATE.py```
 
 ## Tech stack
 - Language: Python,Mysql
@@ -46,8 +45,9 @@ complete in the day, see the pending tasks list and remove if the task is done o
 When you run the application, you will have 3 options
  
 - add tasks
-- show tasks
 - remove task
+- mark task done\pending
+- Show todolist
 
   follow on screen instructions further.
 
