@@ -51,7 +51,7 @@ while True:
     print("press 1 to Add tasks\n") 
     print("press 2 to Remove tasks\n")
     print("press 3 to Mark task done/pending \n")
-    print("press 4 to Show the TODOLIST\n")
+    print("press 4 to See the TODOLIST\n")
     x= input("choose any one option in the todo list\n")
 
     if x == "1":
