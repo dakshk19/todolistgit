@@ -90,15 +90,29 @@ def userfn():
     if user == "1":
 
         newuser = input("enter name of new user\n")
-        table = f"CREATE TABLE IF NOT EXISTS {newuser}(uniqueID INT PRIMARY KEY AUTO_INCREMENT, taskname VARCHAR(100), status VARCHAR(50)) AUTO_INCREMENT = 100"
-        mycursor.execute(table)
-        conn.commit()
-        print("new user has been created\n")
+
+        mycursor.execute("show tables")
+        tables = mycursor.fetchall()
+        if (newuser,) in tables:
+            print("user is already present")
+
+        else:
+            table = f"CREATE TABLE IF NOT EXISTS {newuser}(uniqueID INT PRIMARY KEY AUTO_INCREMENT, taskname VARCHAR(100), status VARCHAR(50)) AUTO_INCREMENT = 100"
+            mycursor.execute(table)
+            conn.commit()
+            print("new user has been created\n")
 
     if user == "0":
 
         c_user = input("enter name to the user you wanna go with\n")
-        runcmds(c_user)    
+        mycursor.execute("show tables")
+        tables = mycursor.fetchall()
+
+        if (c_user,) not in tables:
+            print(f"no such user named {c_user}")
+
+        else:
+            runcmds(c_user)    
 
 while True:
     
