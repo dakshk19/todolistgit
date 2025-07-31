@@ -8,7 +8,7 @@ This project is a simple **RESTful To-Do List API** built with **Python** and **
 * **Python 3.9+** – Programming language
 * **FastAPI** – Web framework for building APIs
 * **SQLite** – Lightweight file-based database
-* **SQLAlchemy** (ORM) – Database access layer (if used in code)
+* **SQLAlchemy** (ORM) – Database access layer
 * **Uvicorn** – ASGI server for running the app
 * **Docker & Docker Compose** – Containerization and easy deployment
 
